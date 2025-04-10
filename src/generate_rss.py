@@ -1,12 +1,15 @@
 import logging
 from datetime import datetime
-from typing import List, Dict
+from typing import Dict
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 from dotenv import load_dotenv
 
-from .db import AlibabaCloudOSSStorageDB
+try:
+    from src.db import AlibabaCloudOSSStorageDB
+except ImportError:
+    from db import AlibabaCloudOSSStorageDB
 
 
 # Load environment variables from .env file
@@ -133,6 +136,6 @@ def generate_rss_feed(oss_storage: AlibabaCloudOSSStorageDB, output_file: str = 
 
 if __name__ == "__main__":
     db = AlibabaCloudOSSStorageDB()
-    output_file = '../rss_feed.xml'
+    output_file = 'rss_feed.xml'
     rss_content = generate_rss_feed(db, output_file)
     db.save_to_file(rss_content, output_file)

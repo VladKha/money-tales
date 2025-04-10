@@ -31,7 +31,7 @@ The application generates stories and audio content based on selected heroes and
 
 3. **Install the required packages:**
    ```bash
-   .venv/bin/pip install -r requirements.txt
+   make install_requirements
    ```
 
 ## Environment Variables

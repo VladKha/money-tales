@@ -1,0 +1,6 @@
+openai
+oss2
+python-dotenv
+gradio
+tenacity
+elevenlabs

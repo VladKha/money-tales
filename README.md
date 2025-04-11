@@ -16,6 +16,9 @@ The application generates stories and audio content based on selected heroes and
 
 ![Usage example](usage_example.png)
 
+## YouTube demo
+[![YouTube demo](https://img.youtube.com/vi/z0771eivf8M/0.jpg)](https://www.youtube.com/watch?v=z0771eivf8M)
+
 ## Installation
 
 1. **Clone the repository:**

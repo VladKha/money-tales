@@ -83,6 +83,7 @@ with gr.Blocks(title="MoneyTales", theme=gr.themes.Ocean()) as demo:
                     "Captain America",
                     "Iron Man"
                 ],
+                allow_custom_value=True,
                 value=DEFAULT_HERO
             )
         with gr.Column():
@@ -104,6 +105,7 @@ with gr.Blocks(title="MoneyTales", theme=gr.themes.Ocean()) as demo:
                     "banks",
                     "inflation"
                 ],
+                allow_custom_value=True,
                 value=DEFAULT_CONCEPT
             )
     

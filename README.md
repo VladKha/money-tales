@@ -23,8 +23,8 @@ The application generates stories and audio content based on selected heroes and
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/VladKha/money_tales.git
-   cd money_tales
+   git clone https://github.com/VladKha/money-tales.git
+   cd money-tales
    ```
 
 2. **Set up the Python venv (use Python 3.11):**
